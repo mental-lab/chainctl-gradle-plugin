@@ -30,6 +30,10 @@ gradlePlugin {
     }
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 tasks.test {
     useJUnit()
 }
